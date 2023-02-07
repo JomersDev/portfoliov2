@@ -1,16 +1,16 @@
 import React from "react"
 import Nav from "./Components/Nav"
 import Hero from "./Components/Hero"
-import Skills from "./Components/Skills"
+import About from "./Components/About"
 import Projects from "./Components/Projects"
 
 function App() {
 
   return (
-    <div className="bg-white px-10">
+    <div className="bg-gray-900 px-10 text-white">
       <Nav />
       <Hero />
-      <Skills />
+      <About />
       <Projects />
     </div>
   )
