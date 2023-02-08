@@ -2,38 +2,41 @@ import React from "react";
 
 export default function About() {
     return (
-        <section>
-            <h2 className="text-3xl py-1">About Me</h2>
-            <p>The skills, tools and technologies I use to bring your products to life.</p>
-            <div className="flex flex-wrap w-100 gap-6 justify-center my-6">
-            <i className="devicon-html5-plain-wordmark"></i>
+        <section className="mb-20">
+            <h2 className="text-3xl mb-4 text-teal-400 font-medium underline underline-offset-8">About Me</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and 
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
+                into electronic typesetting, remaining essentially unchanged.
+            </p>
+            <div className="flex flex-wrap w-100 gap-6 justify-center my-10">
                 <div>
-                    <img className="w-20 h-20" src="../src/images/tech-icons/css.svg" alt="css-logo" />
+                    <i class="devicon-html5-plain text-7xl hover:text-teal-300"></i>
+                    <p className="text-center">HTML</p>
+                </div>
+                <div>
+                    <i class="devicon-css3-plain text-7xl hover:text-teal-300"></i>
                     <p className="text-center">CSS</p>
                 </div>
                 <div>
-                    <img className="w-20 h-20" src="../src/images/tech-icons/javascript.svg" alt="css-logo" />
+                    <i class="devicon-javascript-plain text-7xl hover:text-teal-300"></i>
                     <p className="text-center">Javascript</p>
                 </div>
                 <div>
-                    <img className="w-20 h-20" src="../src/images/tech-icons/react.svg" alt="css-logo" />
+                    <i class="devicon-react-original text-7xl hover:text-teal-300"></i>
                     <p className="text-center">React</p>
                 </div>
                 <div>
-                    <img className="w-20 h-20" src="../src/images/tech-icons/tailwind.svg" alt="css-logo" />
+                    <i class="devicon-tailwindcss-plain text-7xl px-2 hover:text-teal-300"></i>
                     <p className="text-center">Tailwind CSS</p>
                 </div>
                 <div>
-                    <img className="w-20 h-20" src="../src/images/tech-icons/github.svg" alt="css-logo" />
+                    <i class="devicon-github-original text-7xl hover:text-teal-300"></i>
                     <p className="text-center">GitHub</p>
                 </div>
                 <div>
-                    <img className="w-20 h-20" src="../src/images/tech-icons/vscode.svg" alt="css-logo" />
-                    <p className="text-center">VS Code</p>
-                </div>
-                <div>
-                    <img className="w-20 h-20" src="../src/images/tech-icons/responsive.svg" alt="css-logo" />
-                    <p className="text-center">Responsive</p>
+                    <i class="devicon-npm-original-wordmark text-7xl hover:text-teal-300"></i>
+                    <p className="text-center">npmjs</p>
                 </div>
             </div>
         </section>
