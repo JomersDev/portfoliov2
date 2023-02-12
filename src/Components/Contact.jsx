@@ -56,10 +56,14 @@ export default function() {
                         </button>
                     </form>
                 </div>
-                <div className="text-black text-center w-full">
-                    <p className="hidden md:inline-flex pt-6">
+                <div className="text-black text-center w-full hidden md:flex md:flex-col">
+                    <p className="pt-6">
                         Feel free to send me a message, i'd love to hear from you. Simply fill out the form to the left or reach me through one of my socials below.
                     </p>
+                    <div>
+                        <i className="devicon-github-original text-3xl hover:text-teal-300 cursor-pointer"></i>
+                        <i class="devicon-linkedin-plain text-3xl hover:text-teal-300 cursor-pointer"></i>
+                    </div>
                 </div>
             </div>
         </section>

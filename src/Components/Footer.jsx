@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer className="bg-gray-800 py-8">
             <p className="text-center">
-                2020 © Copyright Kaustubh Mishra. All Rights Reserved
+                2023 © Copyright James McGrory. All Rights Reserved
             </p>
         </footer>
     )
