@@ -3,7 +3,7 @@ import { BsFillMoonStarsFill} from 'react-icons/bs'
 
 export default function Nav() {
     return (
-        <nav className="py-10 flex justify-between">
+        <nav className="py-10 flex justify-between px-10">
             <h1 className="text-3xl text-white font-kenia">JamesMcGrory</h1>
             <ul className="flex items-center">
                 <li>

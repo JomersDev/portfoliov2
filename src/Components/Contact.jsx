@@ -2,7 +2,7 @@ import React from "react";
 
 export default function() {
     return (
-        <section className="pb-10">
+        <section className="pb-10 px-10">
             <h2 className="text-3xl mb-10 text-teal-400 font-medium underline underline-offset-8">
                 Contact Me
             </h2>
