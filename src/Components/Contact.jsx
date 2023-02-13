@@ -35,6 +35,7 @@ export default function() {
                                     name="user_name" 
                                     type="text" 
                                     placeholder="John Smith"
+                                    required
                                     className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm  focus:outline-none focus:border-teal-500 "
                                 />
                             </div>
@@ -49,6 +50,7 @@ export default function() {
                                     name="user_email" 
                                     type="email" 
                                     placeholder="john.smith@email.com"
+                                    required
                                     className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-teal-500"
                                 />
                             </div>
@@ -63,6 +65,7 @@ export default function() {
                                     name="message"
                                     placeholder="Hi, Write me a message here"
                                     rows="6" 
+                                    required
                                     className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-teal-500"
                                 />
                             </div>

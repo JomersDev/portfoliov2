@@ -3,7 +3,7 @@ import { BsGlobe} from 'react-icons/bs';
 
 export default function ProjectCard() {
     return (
-        <div className="border-2 border-gray-700 rounded-lg max-w-lg md:max-w-xs">
+        <div className="border-2 border-gray-700 rounded-lg max-w-lg">
             <img src="../src/Images/project-screenshot.png" className="rounded-t-lg"/>
             <h1 className="text-2xl mb-4 text-teal-400 mt-4 ml-4">Sample Project</h1>
             <p className="ml-4 text-gray-200">This is a simple sample project. This will be a quick summary of what the projet is.</p>
