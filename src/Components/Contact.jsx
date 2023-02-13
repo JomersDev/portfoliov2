@@ -1,6 +1,22 @@
-import React from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 export default function() {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_3110zfr', 'template_e13tmov', form.current, 'Hjlsr9vKC49IKclbq')
+        .then((result) => {
+            console.log(result.text);
+            //e.target.reset()
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
     return (
         <section className="pb-10 px-10 sm:px-16">
             <h2 className="text-3xl mb-10 text-teal-400 font-medium underline underline-offset-8">
@@ -8,16 +24,15 @@ export default function() {
             </h2>
             <div className="bg-gray-100 py-8 px-6 shadow-lg rounded-lg w-full md:flex md:gap-x-12">
                 <div className="w-full">
-                    <form name="contact v1" method="post" data-netlify="true" onSubmit="submit" className="text-black space-y-6">
-                        <input type="hidden" name="form-name" value="contact v1" />
+                    <form ref={form} onSubmit={sendEmail} className="text-black space-y-6">
                         <div>
-                            <label htmlFor="name" className="block text-lg font-medium text-gray-900">
+                            <label htmlFor="user_name" className="block text-lg font-medium text-gray-900">
                                 Your Name
                             </label>
                             <div className="mt-1">
                                 <input 
                                     id="name" 
-                                    name="name" 
+                                    name="user_name" 
                                     type="text" 
                                     placeholder="John Smith"
                                     className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm  focus:outline-none focus:border-teal-500 "
@@ -25,13 +40,13 @@ export default function() {
                             </div>
                         </div>
                         <div>
-                            <label htmlFor="email" className="block text-lg font-medium text-gray-900  ">
+                            <label htmlFor="user_email" className="block text-lg font-medium text-gray-900  ">
                                 Email Address
                             </label>
                             <div className="mt-1">
                                 <input 
                                     id="email" 
-                                    name="email" 
+                                    name="user_email" 
                                     type="email" 
                                     placeholder="john.smith@email.com"
                                     className="w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-teal-500"
@@ -52,7 +67,7 @@ export default function() {
                                 />
                             </div>
                         </div>
-                        <button type="submit" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-md py-2 w-full">
+                        <button type="submit" value="Send" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-md py-2 w-full">
                             Send Message
                         </button>
                     </form>

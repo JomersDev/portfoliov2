@@ -10,6 +10,7 @@ export default function() {
                 <ProjectCard />
                 <ProjectCard />
                 <ProjectCard />
+                <ProjectCard />
             </div>
         </section>
     )
