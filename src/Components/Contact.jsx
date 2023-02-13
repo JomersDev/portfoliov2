@@ -8,7 +8,8 @@ export default function() {
             </h2>
             <div className="bg-gray-100 py-8 px-6 shadow-lg rounded-lg w-full md:flex md:gap-x-12">
                 <div className="w-full">
-                    <form className="text-black space-y-6">
+                    <form name="contact v1" method="post" data-netlify="true" onSubmit="submit" className="text-black space-y-6">
+                        <input type="hidden" name="form-name" value="contact v1" />
                         <div>
                             <label htmlFor="name" className="block text-lg font-medium text-gray-900">
                                 Your Name
@@ -62,7 +63,7 @@ export default function() {
                     </p>
                     <div>
                         <i className="devicon-github-original text-3xl hover:text-teal-300 cursor-pointer"></i>
-                        <i class="devicon-linkedin-plain text-3xl hover:text-teal-300 cursor-pointer"></i>
+                        <i className="devicon-linkedin-plain text-3xl hover:text-teal-300 cursor-pointer"></i>
                     </div>
                 </div>
             </div>
