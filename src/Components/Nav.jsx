@@ -12,7 +12,7 @@ export default function Nav() {
     }
 
     return (
-        <nav className="py-4 flex justify-between items-center px-10 bg-sky-900">
+        <nav className="flex justify-between items-center px-10 bg-sky-900">
             <h1 className="text-3xl text-white font-kenia">JamesMcGrory</h1>
             <ul className="items-center justify-between hidden md:inline-flex">
                 <li>

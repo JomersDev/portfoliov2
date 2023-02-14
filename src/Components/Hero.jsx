@@ -4,7 +4,7 @@ import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from "react-icons/a
 export default function Hero() {
 
     return (
-        <section className="min-h-screen flex justify-center items-center -mt-16">
+        <section className="background min-h-screen flex justify-center items-center">
             <div className="text-center">
                 <h1 className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-cyan-300 to-teal-500">
                     James McGrory
