@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
     return (
         <section className="mb-20 px-10 text-center flex flex-col w-screen sm:px-16 ">
-            <h2 className="text-3xl mb-10 text-teal-400 font-medium underline underline-offset-8">
+            <h2 className="text-4xl mb-10 text-teal-400 font-medium underline underline-offset-8">
                 About Me
             </h2>
             <p className="leading-relaxed max-w-3xl mx-auto text-lg">
