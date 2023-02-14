@@ -5,12 +5,13 @@ import About from "./Components/About"
 import Projects from "./Components/Projects"
 import Contact from "./Components/Contact"
 import Footer from "./Components/Footer"
+import NavBar from "./Components/NavBar"
 
 function App() {
 
   return (
-    <div className="bg-gray-900 text-white flex flex-col justify-center">
-      <Nav />
+    <div className="bg-gray-900 text-white">
+      <NavBar />
       <Hero />
       <About />
       <Projects />

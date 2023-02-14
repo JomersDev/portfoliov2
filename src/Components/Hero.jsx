@@ -2,6 +2,7 @@ import React from "react";
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from "react-icons/ai"
 
 export default function Hero() {
+
     return (
         <section className="min-h-screen flex justify-center items-center -mt-16">
             <div className="text-center">
