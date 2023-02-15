@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
     return (
-        <section className="mb-20 px-10 text-center flex flex-col w-screen sm:px-16 ">
+        <section className="mb-28 px-10 text-center flex flex-col w-screen sm:px-16 ">
             <h2 className="text-4xl mb-10 text-teal-400 font-medium underline underline-offset-8">
                 About Me
             </h2>
@@ -12,7 +12,7 @@ export default function About() {
                 scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap 
                 into electronic typesetting, remaining essentially unchanged.
             </p>
-            <div className="flex flex-wrap w-100 gap-6 justify-center my-10">
+            <div className="flex flex-wrap w-100 gap-6 justify-center mt-10">
                 <div>
                     <i className="devicon-html5-plain text-7xl hover:text-teal-300"></i>
                     <p className="text-center">HTML</p>
