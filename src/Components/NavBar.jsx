@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { BsFillMoonStarsFill} from 'react-icons/bs'
 import { AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+import { Link } from "react-scroll";
 
 export default function Test() {
 
@@ -29,9 +30,15 @@ export default function Test() {
 
             {/* desktop nav menu */}
             <ul className="hidden md:flex">
-                <li className="p-4 hover:text-teal-200 hover:underline cursor-pointer ease-in-out duration-500">About</li>
-                <li className="p-4 hover:text-teal-200 hover:underline cursor-pointer ease-in-out duration-500">Projects</li>
-                <li className="p-4 hover:text-teal-200 hover:underline cursor-pointer ease-in-out duration-500">Contact</li>
+                <li className="p-4 hover:text-teal-200 hover:underline cursor-pointer ease-in-out duration-500">
+                   <Link to="about" spy={true} smooth={true} offset={50} duration={500}>About</Link> 
+                </li>
+                <li className="p-4 hover:text-teal-200 hover:underline cursor-pointer ease-in-out duration-500">
+                   <Link to="projects" spy={true} smooth={true} offset={-50} duration={500}>Projects</Link>
+                </li>
+                <li className="p-4 hover:text-teal-200 hover:underline cursor-pointer ease-in-out duration-500">
+                   <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link> 
+                </li>
             </ul>
 
             {/* render open or close menu based on the state of nav  */}

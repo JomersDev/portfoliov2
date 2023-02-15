@@ -19,7 +19,7 @@ export default function() {
     };
 
     return (
-        <section className="mb-28 px-10 md:px-16 flex flex-col items-center">
+        <section id='contact' className="mb-28 px-10 md:px-16 flex flex-col items-center">
             <h2 className="text-4xl mb-10 text-teal-400 font-medium underline underline-offset-8">
                 Contact Me
             </h2>

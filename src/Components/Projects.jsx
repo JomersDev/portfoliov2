@@ -3,7 +3,7 @@ import ProjectCard from "../Components/ProjectCard";
 
 export default function Projects() {
     return (
-        <section className="mb-28 px-10 sm:px-16 flex flex-col items-center">
+        <section id="projects" className="mb-28 px-10 sm:px-16 flex flex-col items-center">
             <h2 className="text-4xl mb-10 text-teal-400 text-center font-medium underline underline-offset-8">My Projects</h2>
             <p className="leading-relaxed max-w-3xl text-center mx-auto text-lg">
                 Here are some of the projects I have completed recently. Take a look the live preview with the globe icon, 
