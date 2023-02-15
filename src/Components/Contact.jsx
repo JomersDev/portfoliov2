@@ -19,7 +19,7 @@ export default function() {
 
     return (
         <section className="pb-10 px-10 sm:px-16">
-            <h2 className="text-3xl mb-10 text-teal-400 font-medium underline underline-offset-8">
+            <h2 className="text-4xl mb-10 text-teal-400 text-center font-medium underline underline-offset-8">
                 Contact Me
             </h2>
             <div className="bg-gray-100 py-8 px-6 shadow-lg rounded-lg w-full md:flex md:gap-x-12">
