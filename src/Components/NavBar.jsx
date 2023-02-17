@@ -9,7 +9,6 @@ export default function Test() {
 
     {/* opens and closes the mobile nav menu*/}
     function handleNav() {
-        console.log('test click')
         setNav(!nav)
     }
 

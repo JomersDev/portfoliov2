@@ -18,7 +18,8 @@ export default function Projects() {
                                 key={project.id} 
                                 id={project.id} 
                                 name={project.name} 
-                                description={project.description}
+                                summary={project.summary}
+                                image={project.image}
                             />
                 })}
             </div>

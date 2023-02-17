@@ -30,3 +30,6 @@ function App() {
 }
 
 export default App
+
+
+//className="hover:scale-125 transition-all duration-500"
