@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "../Components/ProjectCard";
+import projects from "../data";
 
 export default function Projects() {
     return (
@@ -10,9 +11,16 @@ export default function Projects() {
                 or click learn more for further details.
             </p>
             <div className="my-6 flex items-center flex-col space-y-4 lg:flex-row lg:space-x-10 lg:space-y-0 lg:max-w-6xl">
-                <ProjectCard />
-                <ProjectCard />
-                <ProjectCard />
+                
+                {/* looping through projects data and creating a card for each element in the array with data passed down as props */}
+                {projects.map(project => {
+                    return <ProjectCard 
+                                key={project.id} 
+                                id={project.id} 
+                                name={project.name} 
+                                description={project.description}
+                            />
+                })}
             </div>
         </section>
     )
