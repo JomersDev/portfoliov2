@@ -13,9 +13,10 @@ const projects = [
     },
     {
         id: "3",
-        name: "Coffee Shop",
-        summary: "A functioning E-commerce store for a fictional coffee brand",
-        image: "/coin-stats-1.png"
+        name: "The Brew Box",
+        summary: "An ecommerce store for a fictional coffee brand",
+        image: "/the-brew-box/the-brew-box.png",
+        route: "/projects/thebrewbox"
     }
 ]
 

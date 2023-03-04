@@ -20,6 +20,7 @@ export default function Projects() {
                                 name={project.name} 
                                 summary={project.summary}
                                 image={project.image}
+                                route={project.route}
                             />
                 })}
             </div>

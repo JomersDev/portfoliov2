@@ -5,7 +5,7 @@ import Projects from "./Components/Projects"
 import Contact from "./Components/Contact"
 import Footer from "./Components/Footer"
 import NavBar from "./Components/NavBar"
-import ProjectInfo from "./Pages/ProjectInfo"
+import TheBrewBox from "./Pages/TheBrewBox"
 import {Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
                   <Contact />
                 </>
         } />
-        <Route path="/projects/:projectId" element={<ProjectInfo />}/>
+        <Route path="/projects/thebrewbox" element={<TheBrewBox />}/>
       </Routes>
       <Footer />
     </div>
