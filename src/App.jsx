@@ -6,6 +6,7 @@ import Contact from "./Components/Contact"
 import Footer from "./Components/Footer"
 import NavBar from "./Components/NavBar"
 import TheBrewBox from "./Pages/TheBrewBox"
+import Quizzical from "./Pages/Quizzical"
 import {Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
                 </>
         } />
         <Route path="/projects/thebrewbox" element={<TheBrewBox />}/>
+        <Route path="/projects/quizzical" element={<Quizzical />}/>
       </Routes>
       <Footer />
     </div>

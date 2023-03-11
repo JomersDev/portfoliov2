@@ -1,14 +1,15 @@
 const projects = [
     {
         id: "1",
-        name: "Coin Stats",
-        summary: "An app that uses coin gecko API to fetch current market data",
-        image: "/coin-stats-1.png"
+        name: "Quizzical",
+        summary: "A Quiz game that uses the Open Trivia API - 4 categories and difficulty settings",
+        image: "/quizzical/menu.png",
+        route: "/projects/quizzical"
     },
     {
         id: "2",
-        name: "Quiz App",
-        summary: "An app that uses the Open Trivia API to generate a short quiz game",
+        name: "Coin Stats",
+        summary: "An app that uses coin gecko API to fetch current market data",
         image: "/coin-stats-1.png"
     },
     {
