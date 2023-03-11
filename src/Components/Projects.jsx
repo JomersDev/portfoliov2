@@ -21,6 +21,8 @@ export default function Projects() {
                                 summary={project.summary}
                                 image={project.image}
                                 route={project.route}
+                                github={project.github}
+                                live={project.live}
                             />
                 })}
             </div>

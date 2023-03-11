@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 
 export default function ProjectCard(props) {
 
-    const {id, name, summary, image, route} = props
+    //destructuring props received from Projects component
+    const {id, name, summary, image, route, github, live} = props
 
     return (
         <div className="border-2 border-gray-700 rounded-lg max-w-lg hover:scale-105 transition-all duration-500">
@@ -20,10 +21,10 @@ export default function ProjectCard(props) {
                         Learn more
                 </Link>
                 <div className="flex gap-8 mt-4 mb-4 mr-4 items-center">
-                    <a href="https://musical-speculoos-3a4e78.netlify.app/" target="_blank" rel="noopener">
+                    <a href={live} target="_blank" rel="noopener">
                         <BsGlobe size="1.75rem" className="hover:text-teal-300 cursor-pointer"/>
                     </a>
-                    <a href="https://github.com/JomersDev/the-brew-box" target="_blank" rel="noopener">
+                    <a href={github} target="_blank" rel="noopener">
                         <i className="devicon-github-original text-3xl hover:text-teal-300 cursor-pointer"></i>
                     </a>
                 </div>
