@@ -10,7 +10,7 @@ export default function ProjectCard(props) {
         <div className="border-2 border-gray-700 rounded-lg max-w-lg hover:scale-105 transition-all duration-500">
             <img src={image} className="rounded-t-lg"/>
             <h1 className="text-2xl mb-4 text-teal-400 mt-4 ml-4">{name}</h1>
-            <p className="ml-4 text-gray-200">{summary}</p>
+            <p className="mx-4 text-gray-200">{summary}</p>
             <div className="flex justify-between items-center">
                 
                 {/* dynamically links to the project info page for each specific project */}

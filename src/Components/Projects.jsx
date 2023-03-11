@@ -5,8 +5,8 @@ import projects from "../data";
 export default function Projects() {
     return (
         <section id="projects" className="mb-28 px-10 sm:px-16 flex flex-col items-center">
-            <h2 className="text-4xl mb-10 text-teal-400 text-center font-medium underline underline-offset-8">My Projects</h2>
-            <p className="leading-relaxed max-w-3xl text-center mx-auto text-lg">
+            <h2 className="text-5xl mb-10 text-teal-400 text-center font-medium underline underline-offset-8">My Projects</h2>
+            <p className="leading-relaxed max-w-3xl mx-auto">
                 Here are some of the projects I have completed recently. Take a look the live preview with the globe icon, 
                 or click learn more for further details.
             </p>
