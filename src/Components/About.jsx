@@ -6,7 +6,7 @@ export default function About() {
             <h2 className="text-5xl mb-10 text-teal-400 text-center font-medium underline underline-offset-8">
                 About Me
             </h2>
-            <p className="leading-relaxed max-w-3xl mx-auto">
+            <p className="leading-relaxed max-w-3xl text-gray-100 mx-auto">
                 My name is James McGrory, and I am a frontend web developer. I love building visually appealing 
                 interfaces and functional webapps. 
                 <br/><br/>
@@ -22,7 +22,7 @@ export default function About() {
                 <br/><br/>
                 When I’m not coding I’m most likely at the gym, reading a book or playing a video game. 
             </p>
-            <div className="flex flex-wrap w-100 gap-6 justify-center mt-10">
+            <div className="flex flex-wrap w-100 gap-6 justify-center mt-10 text-gray-100">
                 <div>
                     <i className="devicon-html5-plain text-7xl hover:text-teal-300 transition-all duration-200"></i>
                     <p className="text-center">HTML</p>
