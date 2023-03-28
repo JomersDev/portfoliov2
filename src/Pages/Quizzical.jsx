@@ -19,7 +19,7 @@ export default function TheBrewBox() {
                     <li className="border border-teal-500 px-2 py-1 text-xs text-teal-400">API</li>
                 </ul>
                 <div className="flex gap-x-2 items-center mt-4">
-                    <a href="https://golden-cannoli-eacd9b.netlify.app/" target="_blank" rel="noopener" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-md py-1 px-2 cursor-pointer hover:scale-105 transition-all duration-200">
+                    <a href="https://quizzical-jamesm.netlify.app/" target="_blank" rel="noopener" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-md py-1 px-2 cursor-pointer hover:scale-105 transition-all duration-200">
                         Live View
                     </a>
                     <a href="https://github.com/JomersDev/quizzical" target="_blank" rel="noopener" className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-md py-1 px-2 cursor-pointer hover:scale-105 transition-all duration-200">
@@ -32,7 +32,7 @@ export default function TheBrewBox() {
                     Overview
                 </h2>
                 <p className="text-gray-100 leading-6 mb-4 md:text-base">
-                    love going to trivia nights with my friends so I decided to develop a trivia game with React, Tailwind CSS
+                    I love going to trivia nights with my friends so I decided to develop a trivia game with React, Tailwind CSS
                     and the Open Trivia API. Players are able to test their trivia skills with quizzes from four categories including
                     Sports, History, Film and Geography
                 </p>

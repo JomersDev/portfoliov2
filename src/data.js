@@ -5,7 +5,7 @@ const projects = [
         summary: "A Quiz game that uses the Open Trivia API - 4 categories and difficulty settings",
         image: "/quizzical/menu.png",
         route: "/projects/quizzical",
-        live: "https://golden-cannoli-eacd9b.netlify.app/",
+        live: "https://quizzical-jamesm.netlify.app/",
         github: "https://github.com/JomersDev/quizzical"
     },
     {
