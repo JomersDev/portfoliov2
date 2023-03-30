@@ -2,7 +2,7 @@ const projects = [
     {
         id: "1",
         name: "Quizzical",
-        summary: "A Quiz game that uses the Open Trivia API - 4 categories and difficulty settings",
+        summary: "A Quiz game that uses the Open Trivia API - 4 question categories and difficulty settings",
         image: "/quizzical/menu.png",
         route: "/projects/quizzical",
         live: "https://quizzical-jamesm.netlify.app/",
@@ -10,9 +10,12 @@ const projects = [
     },
     {
         id: "2",
-        name: "Coin Stats",
-        summary: "An app that uses coin gecko API to fetch current market data",
-        image: "/coin-stats-1.png"
+        name: "Designo",
+        summary: "Frontend Mentor challenge - multipage responsive development agency website",
+        image: "/designo/designo-home.png",
+        route: "/",
+        live: "https://designo-jamesm.netlify.app/",
+        github: "https://github.com/JomersDev/designo#links"
     },
     {
         id: "3",
@@ -22,7 +25,14 @@ const projects = [
         route: "/projects/thebrewbox",
         live: "https://musical-speculoos-3a4e78.netlify.app/",
         github: "https://github.com/JomersDev/the-brew-box"
-    }
+    },
+    {
+        id: "2",
+        name: "Coin Stats",
+        summary: "An app that uses coin gecko API to fetch current market data",
+        image: "/coin-stats-1.png"
+    },
+
 ]
 
 export default projects
