@@ -7,6 +7,7 @@ import Footer from "./Components/Footer"
 import NavBar from "./Components/NavBar"
 import TheBrewBox from "./Pages/TheBrewBox"
 import Quizzical from "./Pages/Quizzical"
+import Designo from "./Pages/Designo"
 import {Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         } />
         <Route path="/projects/thebrewbox" element={<TheBrewBox />}/>
         <Route path="/projects/quizzical" element={<Quizzical />}/>
+        <Route path="/projects/designo" element={<Designo />}/>
       </Routes>
       <Footer />
     </div>

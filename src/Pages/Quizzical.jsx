@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function TheBrewBox() {
+export default function Quizzical() {
 
     return (
         <div className="flex flex-col my-6 max-w-3xl mx-auto px-10">

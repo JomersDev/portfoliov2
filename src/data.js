@@ -13,7 +13,7 @@ const projects = [
         name: "Designo",
         summary: "Frontend Mentor challenge - multipage responsive development agency website",
         image: "/designo/designo-home.png",
-        route: "/",
+        route: "/projects/designo",
         live: "https://designo-jamesm.netlify.app/",
         github: "https://github.com/JomersDev/designo#links"
     },
