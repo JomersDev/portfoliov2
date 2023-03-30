@@ -27,7 +27,7 @@ const projects = [
         github: "https://github.com/JomersDev/the-brew-box"
     },
     {
-        id: "2",
+        id: "4",
         name: "Coin Stats",
         summary: "An app that uses coin gecko API to fetch current market data",
         image: "/coin-stats-1.png"
