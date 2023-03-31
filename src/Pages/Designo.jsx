@@ -37,7 +37,7 @@ export default function Designo() {
                     This is a solution to the Designo agency website challenge on Frontend Mentor.
                 </p>
                 <div className="max-w-4xl">
-                    <img src="" alt="" className="rounded-md"/>
+                    <img src="/designo/designo-web-design.png" alt="" className="rounded-md"/>
                 </div>
             </div>
             <div>
@@ -66,7 +66,7 @@ export default function Designo() {
                     adjust. Please see my code below for the form schema I set up with Yup for this project. 
                 </p>
                 <div className="my-4 max-w-4xl">
-                    <img src="" alt="" className="rounded-md"/>
+                    <img src="/designo/designo-locations.png" alt="" className="rounded-md"/>
                 </div>
                 <p className="text-gray-100  mt-2 leading-6 md:text-base">
                     I Discovered the HTML picture tag and how it makes switching images for different screen sizes so much more 
@@ -81,6 +81,9 @@ export default function Designo() {
                 <p className="text-gray-100  leading-6 md:text-base">
                     I'd like to implement Leaflet JS and solve the bonus requirement for this project.
                 </p>
+                <div className="my-4 max-w-4xl">
+                    <img src="/designo/designo-contact.png" alt="" className="rounded-md"/>
+                </div>
             </div>
             <div>
                 <h2 className="text-xl mb-4 text-teal-400 underline underline-offset-8 mt-6 md:text-2xl">
