@@ -15,7 +15,7 @@ const projects = [
         image: "/designo/designo-home.png",
         route: "/projects/designo",
         live: "https://designo-jamesm.netlify.app/",
-        github: "https://github.com/JomersDev/designo#links"
+        github: "https://github.com/JomersDev/designo"
     },
     {
         id: "3",
@@ -30,7 +30,10 @@ const projects = [
         id: "4",
         name: "Coin Stats",
         summary: "An app that uses coin gecko API to fetch current market data",
-        image: "/coin-stats-1.png"
+        image: "/coin-stats-1.png",
+        route: "/projects/thebrewbox",
+        live: "https://coinstats-jamesm.netlify.app/",
+        github: "https://github.com/JomersDev/crypto-price-app"
     },
 
 ]

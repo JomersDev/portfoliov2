@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import { Link } from "react-scroll";
+import { Link as RRLink } from "react-router-dom";
 
 export default function Test() {
 
@@ -24,7 +25,7 @@ export default function Test() {
 
     return (
         <div className="flex justify-between items-center mx-auto px-4 py-4 text-white">
-            <h1 className="w-full text-3xl text-white font-fira-code">{`<JamesM/>`}</h1>
+                <RRLink to="/" className="w-full text-3xl text-white font-fira-code cursor-pointer">{`<JamesM/>`}</RRLink>
 
             {/* desktop nav menu */}
             <ul className="hidden md:flex md:items-center">
