@@ -24,7 +24,7 @@ export default function Test() {
 
     return (
         <div className="flex justify-between items-center mx-auto px-4 py-4 text-white">
-            <h1 className="w-full text-3xl font-bold text-white">James McGrory</h1>
+            <h1 className="w-full text-3xl text-white font-fira-code">{`<JamesM/>`}</h1>
 
             {/* desktop nav menu */}
             <ul className="hidden md:flex md:items-center">

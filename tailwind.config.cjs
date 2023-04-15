@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'kenia': ['Kenia', 'cursive'],
+        'fira-code': ['Fira Code', 'monospace'],
       },
     },
   },
