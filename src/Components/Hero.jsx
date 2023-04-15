@@ -9,7 +9,7 @@ export default function Hero() {
                 <h1 className="font-extrabold text-transparent text-5xl pb-6 bg-clip-text bg-gradient-to-r from-cyan-300 to-teal-500 md:text-7xl">
                     James McGrory
                 </h1>
-                <h2 className="text-2xl py-2 text-white md:text-3xl">
+                <h2 className="text-2xl mb-2 text-white md:text-3xl">
                     Front End Developer.
                 </h2>
                 <div className="flex justify-center gap-x-4">

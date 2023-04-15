@@ -38,9 +38,11 @@ export default function Test() {
                    <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link> 
                 </li>
                 <li className="px-4">
-                   <button className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-md py-1 px-4 font-semibold cursor-pointer hover:scale-105 transition-all duration-200">
-                       Resume
-                    </button>
+                    <a href="resume.pdf" download>
+                        <button className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-md py-1 px-4 font-semibold cursor-pointer hover:scale-105 transition-all duration-200">
+                            Resume
+                        </button>
+                    </a>
                 </li>
             </ul>
 
