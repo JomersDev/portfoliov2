@@ -55,10 +55,20 @@ export default function Test() {
             {/* Mobile nav menu */}
             <ul className={nav ? 'fixed left-0 top-0 w-[60%] bg-gray-900 h-full border-r border-r-gray-800 ease-in-out duration-500' : 'bg-gray-900 ease-in-out duration-1000 fixed left-[-100%] top-0 h-full w-[60%]'}>
                 <h1 className="w-full text-3xl text-white font-fira-code cursor-pointer m-4">{`<JamesM/>`}</h1>
-                <li className="p-4 border-b border-gray-600">About</li>
-                <li className="p-4 border-b border-gray-600">Projects</li>
-                <li className="p-4 border-b border-gray-600">Contact</li>
-                <li className="p-4 border-b border-gray-600">Resume</li>
+                <li className="p-4 border-b border-gray-600">
+                    <Link to="about" spy={true} smooth={true} offset={50} duration={500} onClick={handleNav}>About</Link>
+                </li>
+                <li className="p-4 border-b border-gray-600">
+                    <Link to="projects" spy={true} smooth={true} duration={500} onClick={handleNav}>Projects</Link>
+                </li>
+                <li className="p-4 border-b border-gray-600">
+                    <Link to="contact" spy={true} smooth={true} duration={500} onClick={handleNav}>Contact</Link>
+                </li>
+                <li className="p-4">
+                    <a href="resume.pdf" download onClick={handleNav}>
+                        Resume
+                    </a>
+                </li>
             </ul>
         </div>
     )
