@@ -54,7 +54,7 @@ export default function Test() {
 
             {/* Mobile nav menu */}
             <ul className={nav ? 'fixed left-0 top-0 w-[60%] bg-gray-900 h-full border-r border-r-gray-800 ease-in-out duration-500' : 'bg-gray-900 ease-in-out duration-1000 fixed left-[-100%] top-0 h-full w-[60%]'}>
-                <h1 className="w-full text-3xl font-bold text-white m-4">James McGrory</h1>
+                <h1 className="w-full text-3xl text-white font-fira-code cursor-pointer m-4">{`<JamesM/>`}</h1>
                 <li className="p-4 border-b border-gray-600">About</li>
                 <li className="p-4 border-b border-gray-600">Projects</li>
                 <li className="p-4 border-b border-gray-600">Contact</li>
